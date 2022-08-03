@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body .container {
+  background-color: #e4edf2;
+  width: 1250px;
+  border-radius: 10px;
+  -webkit-box-shadow: -0.3px -0.3px 10px 10px #9e9b9b;
+          box-shadow: -0.3px -0.3px 10px 10px #9e9b9b;
+  padding: 20px;
+}
+
+body .container select {
+  border-radius: 5px;
+  padding: 7px;
+  width: 600px;
+}
+
+body .container input {
+  padding: 7px;
+  width: 600px;
+  border-radius: 5px;
+  outline: none;
+  border: solid 1px gray;
+}
+
+body .container a {
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+body .container .r1 h1 {
+  text-align: center;
+}
+
+body .container .r8 {
+  border-top: solid gray 1px;
+  margin-top: 20px;
+  padding-top: 22px;
+}
+
+body .container .r8 :nth-child(1) :nth-child(1) {
+  background-color: #006ce8;
+  color: white;
+}
+
+body .container .r8 :nth-child(2) {
+  background-color: #dca200;
+  color: black;
+}
+/*# sourceMappingURL=newkstyle.css.map */

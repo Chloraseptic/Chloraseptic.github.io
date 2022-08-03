@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  padding: 15px;
+  .flex {
+    display: flex;
+    padding: 10px;
+   
+    button {
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    #bt0{
+      text-decoration: none;
+      padding: 8px;
+      background-color: #0065e1;
+      color: white;
+      border-radius: 5px;
+      &:hover {
+          background-color: #035dca;
+        }
+        &:active {
+          box-shadow: #79a3d4 -0.3px -0.3px 3px 3px;
+      }
+  }
+  #bt1 {
+    text-decoration: none;
+    background-color: #ffbc00;
+    padding: 8px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    &:hover {
+      background-color: #dba100;
+    }
+    &:active {
+      box-shadow: #f7d26f -0.3px -0.3px 3px 3px;
+  }
+  }
+    #bt2 {
+      text-decoration: none;
+      background-color: #ec4644;
+      padding: 8px;
+      text-decoration: none;
+      border-radius: 5px;
+      color: white;
+      border: none;
+      &:hover {
+        background-color: #e9201d;
+      }
+      &:active {
+        box-shadow: #e29190 -0.3px -0.3px 3px 3px;
+    }
+    }
+    #bt5 {
+      background-color: #209443;
+      padding: 8px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-left: 5px;
+      color: white;
+      border: none;
+      &:hover {
+        background-color: #187a35;
+      }
+      &:active {
+        box-shadow: #689175 -0.3px -0.3px 3px 3px;
+    }
+    }
+  }
+  h1 {
+    padding: 10px;
+  }
+img {
+  width: 600px;
+  height: 450px;
+  
+}
+.slideshow-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 450px;
+  width: 1000px;
+  margin: auto;  
+  margin-top: 15px;
+  .mySlides1 {
+    display: block;
+    position: absolute;
+    .absolute {
+      position: absolute;
+      top: 77%;
+      left: 39%;
+      color: white;
+      p {
+        margin-top: 5px;
+        color: #e0e0e0;
+      }
+    }
+  }
+  .mySlides {
+    display: none;
+    position: absolute;
+  
+    .absolute {
+      position: absolute;
+      top: 77%;
+      left: 39%;
+      color: white;
+      p {
+        margin-top: 5px;
+        color: #e0e0e0;
+      }
+    }
+  }
+  .knop {
+    margin-left: 0px;
+    margin-top: 380px;
+    position: absolute;
+  .dot {
+    cursor: pointer;
+    height: 3px;
+    width: 28px;
+    margin: 0 0.1px;
+    background-color: rgb(194, 194, 194);
+    display: inline-block;
+    &:active,:hover, :focus {
+      background-color: rgb(255, 255, 255);
+      color: white;
+      }
+    }
+  }
+  .a {
+  .prev, .next {
+    cursor: pointer;
+    padding: 230px 10px 230px 10px;
+    color: white;
+    font-size: 30px;
+    transition: 0.6s ;
+    border-radius: 0 3px 3px 0;
+    background-color: #e2b4af;
+    &:hover {
+    background-color: #e69188;
+    }
+  }
+  .next {
+    margin-left: 850px;
+  }
+}
+}
+
+// .fade {
+//   -webkit-animation-name: none;
+//   -webkit-animation-direction: normal;
+//   -webkit-animation-duration: 1.5s;
+//   animation-name: fade;
+//   animation-duration: 1.5s;
+//   animation-direction: normal;
+// }
+
+}

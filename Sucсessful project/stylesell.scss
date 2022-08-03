@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 20px;
+    $col: #e2e2e2;
+    .first {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top: solid 1px $col;
+        border-bottom: solid 1px $col;
+        a {
+            background-color: #ffbc00;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            color: black;
+            &:hover {
+                background-color: #dba100;
+              }
+              &:active {
+                box-shadow: #f7d26f -0.3px -0.3px 3px 3px;
+            }
+        }
+    }
+    .flex {
+        display: flex;
+        .fst {
+            background-color: white;
+            input {
+                border: solid 1px rgb(190, 190, 190);
+                width: 348px;
+                padding: 10px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-radius: 6px;
+
+            }
+            ul {
+                padding: 0px;
+                li {
+                    padding: 15px;
+                    list-style: none;
+                    width: 350px;
+                    border: solid 1px $col;
+                    &:hover {
+                        background-color: #f7f9fb;
+                    }
+                    &:focus {
+                        a {
+                        color: #0011f5;
+                        font-weight: bold;
+                        }
+                    }
+                    a {
+                        text-decoration: none;
+                        color: black;
+                  }
+                }
+            }
+        }
+        .sound {
+            background: url(paper.gif);
+            border-radius: 15px;
+            margin: 20px;
+        .sondacer, .sondhp {
+            .flex11 {
+                display: flex;
+                margin: 10px;
+                div {
+                    background-color: white;
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.782);
+                    border-radius: 10px;
+                    margin: 10px;
+                    width: 185px;
+                    height: 330px;
+                    padding: 7px;
+                    position: relative;
+                    span {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    a {
+                        position: absolute;
+                        text-decoration: none;
+                        color: white;
+                        background-color: #0077ff;
+                        padding: 6px;
+                        border-radius: 5px;
+                        text-align: center;
+                        width: 5em;
+                        margin-top: 45px;
+                    }
+                }
+                    img {
+                        width: 177px;
+                        height: 150px;
+                        margin-bottom: 15px;
+                    }
+                pre{
+                    display: flex;
+                    margin: 0px;
+                    p {
+                        margin: 0px;
+                        background-color: #b2ccb3;
+                    }
+                }
+              }
+            }
+        }
+    }
+    }
+}

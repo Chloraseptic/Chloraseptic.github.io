@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style2.css">
+</head>
+<style>
+    input {
+        width: 390px;
+        border: 2px solid red;
+        border-radius: 5px;
+        padding-right: 30px;
+        outline: none;
+        padding: 5px;
+        padding-left: 5px;
+    }
+</style>
+
+<body>
+    <form action="">
+    <hr>
+    <button type="button" class="btn btn-warning"><a style="color: black;text-decoration: none;"
+            href="./index.htm">Əsas
+            səhifə</a></button>
+    <br>
+    <hr>
+    <span style="font-size: 40px;font-weight: 600;">Hesab yaratmaq<span></span></span><br>
+    <hr>
+    <div style="display: none;" id="cdr">
+        <div>
+            <span style="color: green;">İstifadəçi uğurla yaradıldı</span>
+        </div>
+        <br>
+    </div>
+    <label>Ad:<br>
+        <input id="ip1"
+            type="text">
+        <i id="i2" style="color: red;margin-left: -23px;position: absolute;margin-top: 10px;"
+            class="fa-solid fa-circle-exclamation"></i><i id="i1"
+            style="color: green;margin-left: -23px;position: absolute;margin-top: 10px; display: none;"
+            class="fa-solid fa-check"></i>
+        <br>
+        <span id="sp1" style="color: red;">Boş qoymayın. Minimum 2, Maksimum 30 simvol ola bilər</span>
+    </label>
+    <br>
+    <br>
+    <label>Telefon:<br>
+        <input id="ip2"
+            type="text"><i id="i4" style="color: red;margin-left: -23px;position: absolute;margin-top: 10px;"
+            class="fa-solid fa-circle-exclamation"></i><i id="i3"
+            style="color: green;margin-left: -23px;position: absolute;margin-top: 10px;display: none;"
+            class="fa-solid fa-check"></i>
+        <br>
+        <span id="sp2" style="color: red;">Telefon düzgün formada yazılmayıb. Bu (000-000-0000) formada
+            yazılmalıdır</span>
+    </label>
+    <br>
+    <br>
+    <label>Istifadəçi adı:<br>
+        <input id="ip3"
+            type="text"><i id="i6" style="color: red;margin-left: -22px;position: absolute;margin-top: 10px;"
+            class="fa-solid fa-circle-exclamation"></i><i id="i5"
+            style="color: green;margin-left: -23px;position: absolute;margin-top: 10px;display: none;"
+            class="fa-solid fa-check"></i>
+        <br>
+        <span id="sp3" style="color: red;">Boş qoymayın. Minimum 2, Maksimum 30 simvol ola bilər</span>
+    </label>
+    <br>
+    <br>
+    <label>Şifrə:<br>
+        <input id="ip4"
+            type="password"><i id="i8" style="color: red;margin-left: -23px;position: absolute;margin-top: 10px;"
+            class="fa-solid fa-circle-exclamation"></i><i id="i7"
+            style="color: green;margin-left: -23px;position: absolute;margin-top: 10px;display: none;"
+            class="fa-solid fa-check"></i>
+        <br>
+        <span id="sp4" style="color: red;">Boş qoymayın. Minimum 2, Maksimum 30 simvol ola bilər</span>
+    </label>
+    <br>
+    <br>
+    <button type="button" id="hy" class="btn btn-success"><a style="color: white;text-decoration: none;" href="#">Hesab
+            yarat</a></button>
+    <br>
+    <hr>
+    <span>Artıq mövcud hesabın var ? <button type="button" class="btn btn-primary"><a
+                style="color: white;text-decoration: none;" href="./index1.htm">Hesaba daxil ol</a></button></span>
+    <script src="./script2.js"></script>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+body .first {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: solid 1px #e2e2e2;
+  border-bottom: solid 1px #e2e2e2;
+}
+
+body .first a {
+  background-color: #ffbc00;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: black;
+}
+
+body .first a:hover {
+  background-color: #dba100;
+}
+
+body .first a:active {
+  -webkit-box-shadow: #f7d26f -0.3px -0.3px 3px 3px;
+          box-shadow: #f7d26f -0.3px -0.3px 3px 3px;
+}
+
+body .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .flex .fst {
+  background-color: white;
+}
+
+body .flex .fst input {
+  border: solid 1px #bebebe;
+  width: 348px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+body .flex .fst ul {
+  padding: 0px;
+}
+
+body .flex .fst ul li {
+  padding: 15px;
+  list-style: none;
+  width: 350px;
+  border: solid 1px #e2e2e2;
+}
+
+body .flex .fst ul li:hover {
+  background-color: #f7f9fb;
+}
+
+body .flex .fst ul li:focus a {
+  color: #0011f5;
+  font-weight: bold;
+}
+
+body .flex .fst ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+body .flex .sound {
+  background: url(paper.gif);
+  border-radius: 15px;
+  margin: 20px;
+}
+
+body .flex .sound .sondacer .flex11, body .flex .sound .sondhp .flex11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+body .flex .sound .sondacer .flex11 div, body .flex .sound .sondhp .flex11 div {
+  background-color: white;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.782);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.782);
+  border-radius: 10px;
+  margin: 10px;
+  width: 185px;
+  height: 330px;
+  padding: 7px;
+  position: relative;
+}
+
+body .flex .sound .sondacer .flex11 div span, body .flex .sound .sondhp .flex11 div span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .flex .sound .sondacer .flex11 div span a, body .flex .sound .sondhp .flex11 div span a {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  background-color: #0077ff;
+  padding: 6px;
+  border-radius: 5px;
+  text-align: center;
+  width: 5em;
+  margin-top: 45px;
+}
+
+body .flex .sound .sondacer .flex11 div img, body .flex .sound .sondhp .flex11 div img {
+  width: 177px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+body .flex .sound .sondacer .flex11 div pre, body .flex .sound .sondhp .flex11 div pre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px;
+}
+
+body .flex .sound .sondacer .flex11 div pre p, body .flex .sound .sondhp .flex11 div pre p {
+  margin: 0px;
+  background-color: #b2ccb3;
+}
+/*# sourceMappingURL=stylesell.css.map */

@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 15px;
+  background: url(back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid grey 1px;
+  border-top: solid gray 1px;
+}
+
+body .flex a {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+body .flex :nth-child(1) {
+  color: black;
+  background-color: #ffbc00;
+}
+
+body .flex :nth-child(1):hover {
+  background-color: #dba100;
+}
+
+body .flex :nth-child(1):active {
+  -webkit-box-shadow: #f7d26f -0.3px -0.3px 3px 3px;
+          box-shadow: #f7d26f -0.3px -0.3px 3px 3px;
+}
+
+body .flex :nth-child(2) {
+  color: white;
+  background-color: #0075ff;
+  margin-left: 5px;
+}
+
+body .flex1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: solid grey 1px;
+}
+
+body .flex1 .flex11 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .flex1 .flex11 p {
+  padding: 7px;
+  color: white;
+}
+
+body .flex1 .flex11 select {
+  padding: 7px;
+  width: 60px;
+}
+
+body .flex1 .divindiv label {
+  color: white;
+}
+
+body .flex1 .divindiv input {
+  padding: 7px;
+  border-radius: 3px;
+  outline: none;
+  border: solid 1px gray;
+}
+/*# sourceMappingURL=style4.css.map */

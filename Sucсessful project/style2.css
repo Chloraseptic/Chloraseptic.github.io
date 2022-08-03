@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 137vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e403e4), to(#250125));
+  background: linear-gradient(#e403e4, #250125);
+  padding: 3px;
+  padding-left: 550px;
+  padding-right: 550px;
+}
+
+body form {
+  height: 90%;
+  width: 420px;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  -webkit-backdrop-filter: 8;
+          backdrop-filter: 8;
+  cursor: pointer;
+  background-color: rgba(128, 114, 114, 0.3);
+}
+/*# sourceMappingURL=style2.css.map */

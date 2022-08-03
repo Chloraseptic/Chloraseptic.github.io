@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgb(228, 3, 228), rgb(37, 1, 37));
+    .parent {
+        height: 60%;
+        width: 320px;
+        margin-top: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    backdrop-filter: 8;
+    cursor: pointer;
+    background-color: rgba(128, 114, 114, 0.3);
+
+        .a{
+            border-top: solid grey 1px;
+            border-bottom: solid grey 1px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+    #btt1 {
+        background-color: #ffbc00;
+        text-decoration: none;
+        padding: 10px;
+        color: black;
+        cursor: pointer;
+        border-radius: 5px;
+        &:hover {
+            background-color: #e9ac03;
+        }
+        &:active {
+            box-shadow: #f7d26f -0.3px -0.3px 3px 3px;
+        }
+      }
+    }
+      h1 {
+        margin-top: 12px;
+        margin-bottom: 12px; 
+      }
+      .murder {
+        padding-top: 15px;
+        padding-bottom: 25px;
+        border-top: solid 1px grey;
+        border-bottom: solid 1px grey; 
+        position: relative;
+        input {
+            margin-top: 7px;
+            margin-bottom: 7px;
+            padding: 5px;
+            width: 96%;
+            height: 23px;
+            border: solid 2px #53825e;
+            border-radius: 4px;
+            outline: none;
+            &:focus {
+                box-shadow: #aac2b2 -0.2px -0.2px 2px 2px;
+            }
+        } 
+        i {
+            color: #259046;
+            font-size: 15px;
+            position: absolute;
+            top: 0;
+        }
+        :nth-child(4) {
+            margin-top: 52px;
+            margin-left: 295px;
+        }
+        :nth-child(9) {
+            margin-top: 140px;
+            margin-left: 295px;
+        }
+        #btt2 {
+            background-color: #209446;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 120px;
+            &:hover {
+                background-color: #197c3a;
+            }
+            &:active {
+                box-shadow: #689175 -0.3px -0.3px 3px 3px;
+            }
+        }
+      }
+      .flexx {
+          display: flex;
+          padding-top: 15px;
+          p {
+              margin-top: 7px;
+              margin-right: 5px;
+          }
+        #btt3 {
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+            background-color: #0075ff;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-left: 5px;
+            &:hover {
+                background-color: #026be2;
+            }
+            &:active {
+                box-shadow: #79a3d4 -0.3px -0.3px 3px 3px;
+            }
+        }
+      }
+    }
+}
